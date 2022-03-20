@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+#element {
+  font-size: 28px;
+  font-family: Oswald;
+  color: #053b5c;
+  padding: 10px 20px;
+  margin: 0px;
+}
+
+.Map {
+  width: 60%;
+  padding: 1%;
+  overflow: hidden;
+}
+
+.Map img {
+  position: relative;
+}
+
+.normal > path, .normal polygon {
+  fill:#8bbf41;
+  stroke:#fff;
+  stroke-miterlimit:10;
+}
+
+.alert > path, .alert polygon {
+  fill:#ffd300;
+  stroke:#fff;
+  stroke-miterlimit:10;
+}
+
+.danger > path, .danger polygon {
+  fill:#e94b3cff;
+  stroke:#fff;
+  stroke-miterlimit:10;
+}
+
+.Info {
+  width: 34%;
+  float: right;
+  padding: 2% 4% 2% 0%;
+}
+
+.InfoSquare {
+  border-radius: 25px;
+  padding: 2% 0%;
+}
+
+.InfoSquare {
+  padding: 5px 20px;
+}
+
+.InfoSquare #areaName {
+  font-size: 20px;
+}
+
+.InfoSquare #likeliness {
+  font-size: 18px;
+  border-radius: 25px;
+}
